@@ -1,0 +1,30 @@
+.btn{
+    border: 1px solid black;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    font-family: 'Poppins',sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-primary{
+    color: black;
+    background-color: hsl(200, 100%, 87%);
+}
+
+.btn-danger{
+    color: black;
+    background-color: hsl(24, 71%, 54%);
+}
+.btn-row{
+    display: flex;
+    align-items: flex-start;
+}
+.btn-row > * {
+    margin-left: 1rem;
+}
+.btn-row > *:first-child {
+    margin-left: 0;
+}
